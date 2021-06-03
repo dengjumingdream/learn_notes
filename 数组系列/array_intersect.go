@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Printf("JGO师--gogogo\n")
@@ -34,4 +36,16 @@ func intersect(nums1 []int, nums2 []int) []int {
 		}
 	}
 	return nums2[0:k]
+}
+
+/*
+数组排序
+@param array
+*/
+func sortArray(array []int) []int {
+	var size = len(array)
+	for i := 0; i <= size; i++ {
+
+	}
+	return array
 }

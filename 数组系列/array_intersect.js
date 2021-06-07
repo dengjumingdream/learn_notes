@@ -27,7 +27,7 @@ function getIntersect(array1, array2) {
             let _temp2 = array2[i]
             if(index == _temp2 && map1[index] > 0) {
                 resultArray.push(index);
-                map1[index] -= 1 
+                map1[index] -= 1
             }
         }
     }
